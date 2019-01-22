@@ -2,7 +2,7 @@ vim-lvimrc
 ==========
 
 This is a plugin for the [vim](http://www.vim.org/) editor for sourcing files named `.lvimrc`
-from the current directory and all directories upwards.
+from the current directory and all directories upwards during the startup of vim.
 
 All found `.lvimrc` files will be sourced in the order top to bottom, so that files lower
 in the directory hierarchy will override the settings of the ones above.
